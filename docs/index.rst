@@ -8,17 +8,24 @@ Home
 
 Hello, these are my notes on Markdown. You can get started with the Overview.
 
-Contents
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   test
-
-
 Indices and tables
 ------------------
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Contents
+------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   lorem
+
+   specimen
+
+   Headings - rst,nts,ksa,2020-1109203547
+
+   Hyperlinks - rst,nts,ksa,2020-1109165211
+
+   Footnotes - rst,nts,ksa,2020-1109200526
