@@ -6,7 +6,7 @@
 Home
 =============================================
 
-Hello, these are my notes on Markdown. You can get started with the Overview.
+Hello, these are my notes on reStructuredText. You can get started with the :doc:`Overview`.
 
 Indices and tables
 ------------------
@@ -20,14 +20,18 @@ Contents
 .. toctree::
    :maxdepth: 1
 
-   lorem
-
    specimen
+
+   Overview - rst,nts,ksa,2020-1109222609
 
    Headings - rst,nts,ksa,2020-1109203547
 
    Paragraphs - rst,nts,ksa,2020-1109220619
 
+   Formatting - rst,nts,ksa,2020-1109221434
+
    Hyperlinks - rst,nts,ksa,2020-1109165211
 
    Footnotes - rst,nts,ksa,2020-1109200526
+
+   Markdown - rst,nts,ksa,2020-1109222148

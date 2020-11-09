@@ -10,7 +10,7 @@ You can link local files as well as remote files (webpages).
 
 .. note::
 
-    Sphinx configuration:
+    Sphinx Configurations:
 
     .. code-block:: python
 
