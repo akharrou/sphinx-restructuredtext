@@ -26,6 +26,8 @@ Contents
 
    Headings - rst,nts,ksa,2020-1109203547
 
+   Paragraphs - rst,nts,ksa,2020-1109220619
+
    Hyperlinks - rst,nts,ksa,2020-1109165211
 
    Footnotes - rst,nts,ksa,2020-1109200526

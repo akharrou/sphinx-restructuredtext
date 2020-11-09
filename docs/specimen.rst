@@ -1,9 +1,9 @@
 .. role:: javascript(code)
    :language: javascript
 
-========
+==============
 RST ➤ Specimen
-========
+==============
 
 Body copy
 ---------
