@@ -30,7 +30,7 @@ Inline
 ============================================================
 
 In
-    .. code-block:: rst
+    ::
 
         This is ``code`` that is inlined
 
@@ -42,7 +42,7 @@ Literal blocks
 ============================================================
 
 In
-    .. code-block:: rst
+    ::
 
         Expanded form:
 
@@ -65,31 +65,31 @@ In
                 Literal block
 Out
 
-        Expanded form:
+    Expanded form:
 
-            Paragraph:
+        Paragraph:
 
-            ::
+        ::
 
-                Literal block
+            Literal block
 
-        Partially minimized form:
+    Partially minimized form:
 
-            Paragraph: ::
+        Paragraph: ::
 
-                Literal block
+            Literal block
 
-        Fully minimized form:
+    Fully minimized form:
 
-            Paragraph::
+        Paragraph::
 
-                Literal block
+            Literal block
 
 Codeblock directive
 ============================================================
 
 In
-    .. code-block:: rst
+    ::
 
         This is a snippet of code
 
@@ -111,7 +111,7 @@ Doctest blocks
 ============================================================
 
 In
-    .. code-block:: rst
+    ::
 
         >>> 1 + 1
         2

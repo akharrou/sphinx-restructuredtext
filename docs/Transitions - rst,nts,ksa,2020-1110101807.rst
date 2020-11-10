@@ -1,15 +1,12 @@
 ################################################################################
-RST ➤ Formatting
+RST ➤ Transitions
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-You have the following facilities for formatting:
-
-- emphasis (italics), with ``*text*`` syntax
-- strong emphasis (boldface), with ``**text**`` syntax
+Full page horizontal rules are supported.
 
 **********************************************************************
 Examples
@@ -19,18 +16,22 @@ In
 
     ::
 
-        some *text* is italic
+        text
 
-        some other **text** is bold
+        ----
+
+        text
 
 Out
 
-    some *text* is italic
+    text
 
-    some other **text** is bold
+----
+
+    text
 
 **********************************************************************
 References
 **********************************************************************
 
-- `Sphinx ➤ RST ➤ Basic # Inline markup <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup>`_
+- `Docutils ➤ RST ➤ Transitions <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#transitions>`_

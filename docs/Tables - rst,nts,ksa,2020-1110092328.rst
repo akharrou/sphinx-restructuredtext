@@ -53,7 +53,7 @@ In
     ::
 
         =====  =====  =======
-        A      B    A and B
+        A      B       A and B
         =====  =====  =======
         False  False  False
         True   False  False
@@ -62,9 +62,9 @@ In
         =====  =====  =======
 
         =====  =====  ======
-        Inputs     Output
+        Inputs        Output
         ------------  ------
-        A      B    A or B
+        A      B      A or B
         =====  =====  ======
         False  False  False
         True   False  True
@@ -75,7 +75,7 @@ In
 Out
 
     =====  =====  =======
-    A      B    A and B
+    A      B      A and B
     =====  =====  =======
     False  False  False
     True   False  False
@@ -84,9 +84,9 @@ Out
     =====  =====  =======
 
     =====  =====  ======
-    Inputs     Output
+    Inputs        Output
     ------------  ------
-    A      B    A or B
+    A      B      A or B
     =====  =====  ======
     False  False  False
     True   False  True
