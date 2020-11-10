@@ -10,6 +10,7 @@ You have the following facilities available for text formatting:
 
 - emphasis (italics), with ``*text*`` syntax
 - strong emphasis (boldface), with ``**text**`` syntax
+- :doc:`subscript and superscript <Subscript and superscript - rst,nts,ksa,2020-1110201648>`
 
 **********************************************************************
 Examples

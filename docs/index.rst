@@ -32,6 +32,8 @@ Contents
 
    Formatting - rst,nts,ksa,2020-1109221434
 
+   Subscript and superscript - rst,nts,ksa,2020-1110201648
+
    Code - rst,nts,ksa,2020-1110070327
 
    Lists - rst,nts,ksa,2020-1110065835
