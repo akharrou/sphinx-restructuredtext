@@ -105,13 +105,13 @@ html_title = 'Home'
 # html_theme = 'alabaster'
 
 
-# enable ReadTheDocs sphinx theme; (https://www.sphinx-doc.org/en/master/usage/theming.html); (https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html); requires: pip install sphinx-rtd-theme
+# enable sphinx ReadTheDocs theme; (https://www.sphinx-doc.org/en/master/usage/theming.html); (https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html); requires: pip install sphinx-rtd-theme
 import sphinx_rtd_theme
 extensions.append('sphinx_rtd_theme')
 html_theme = 'sphinx_rtd_theme'
 
 
-# https://bashtage.github.io/sphinx-material/
+# enable sphinx material theme; (https://bashtage.github.io/sphinx-material/)
 # import sphinx_material
 # html_theme = 'sphinx_material'
 # html_theme_options = {
