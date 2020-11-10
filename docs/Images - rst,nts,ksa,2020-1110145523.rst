@@ -34,15 +34,19 @@ In
             :height: 200
             :width: 200
             :scale: 50
-            :alt: alternate text
+            :alt: favorite lion
+            :align: center
+            :target: https://www.google.com
 
 Out
 
-        .. image:: _assets/lion.jpg
-            :height: 200
-            :width: 200
-            :scale: 50
-            :alt: alternate text
+    .. image:: _assets/lion.jpg
+        :height: 200
+        :width: 200
+        :scale: 50
+        :alt: favorite lion
+        :align: center
+        :target: https://www.google.com
 
 **********************************************************************
 References

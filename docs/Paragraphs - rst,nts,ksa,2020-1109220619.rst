@@ -6,7 +6,13 @@ RST ➤ Paragraphs
 Synopsis
 **********************************************************************
 
-You can write parargaphs by typing chunks of text, separated by one or more blank lines, left-aligned to the same level of indentation. Also available are verse styled lines, called "line blocks".
+You can write parargaphs by typing chunks of text, separated by one or more blank lines, left-aligned to the same level of indentation.
+
+Also available are verse-like spaced lines, called "line blocks".
+Prepend the lines with a ``|``.
+
+Also available is the ``.. topic:: title`` directive which gives a bolded
+title to your paragraph.
 
 **********************************************************************
 Examples
@@ -97,6 +103,26 @@ Out
         |             due to some ancient injury?
         |
         | Singing...
+
+Topic directive
+============================================================
+
+In
+    ::
+
+        .. topic:: Topic Title
+
+            Subsequent indented lines comprise
+            the body of the topic, and are
+            interpreted as body elements.
+
+Out
+
+.. topic:: Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
 
 **********************************************************************
 References

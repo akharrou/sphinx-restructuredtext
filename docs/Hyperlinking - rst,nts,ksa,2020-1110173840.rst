@@ -155,15 +155,19 @@ In
 
     ::
 
-        .. only:: builder_html     <--- this is useful; but you can omit it
-
-            Download the :download:`Makefle <../Makefile>`.
+        Download the :download:`Makefle <../Makefile>`.
 
 Out
 
-    .. only:: builder_html
+    Download the :download:`Makefle <../Makefile>`.
 
-        Download the :download:`Makefle <../Makefile>`.
+.. tip::
+
+        .. code-block:: rst
+
+            .. only:: builder_html
+
+                Download the :download:`Makefle <../Makefile>`.
 
 **********************************************************************
 References
