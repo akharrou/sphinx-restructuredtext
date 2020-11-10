@@ -1,0 +1,82 @@
+################################################################################
+RST ➤ Math
+################################################################################
+
+**********************************************************************
+Synopsis
+**********************************************************************
+
+Math is supported with the ``math`` directive. Input is LaTeX markup.
+
+**********************************************************************
+Examples
+**********************************************************************
+
+Basic
+============================================================
+
+In
+    ::
+
+        .. math:: (a + b)^2 = a^2 + 2ab + b^2
+
+        .. math::
+
+            (a + b)^2 = a^2 + 2ab + b^2
+
+            (a - b)^2 = a^2 - 2ab + b^2
+
+        .. math::
+
+            (a + b)^2  &=  (a + b)(a + b) \\
+                        &=  a^2 + 2ab + b^2
+
+Out
+
+        .. math:: (a + b)^2 = a^2 + 2ab + b^2
+
+----
+
+        .. math::
+
+            (a + b)^2 = a^2 + 2ab + b^2
+
+            (a - b)^2 = a^2 - 2ab + b^2
+
+----
+
+        .. math::
+
+            (a + b)^2  &=  (a + b)(a + b) \\
+                        &=  a^2 + 2ab + b^2
+
+More LaTeX
+============================================================
+
+In
+    ::
+
+        .. math::
+            :nowrap:
+
+            \begin{eqnarray}
+                y    & = & ax^2 + bx + c \\
+                f(x) & = & x^2 + 2xy + y^2
+            \end{eqnarray}
+
+Out
+
+    .. math::
+        :nowrap:
+
+        \begin{eqnarray}
+            y    & = & ax^2 + bx + c \\
+            f(x) & = & x^2 + 2xy + y^2
+        \end{eqnarray}
+
+**********************************************************************
+References
+**********************************************************************
+
+- `Sphinx ➤ Directives ➤ Math <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#math>`_
+- `Sphinx ➤ Extensions ➤ spinx.ext.imgmath <https://www.sphinx-doc.org/en/master/usage/extensions/math.html#math-support>`_ (render math output as PNG/SVG)

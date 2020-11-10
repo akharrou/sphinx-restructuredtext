@@ -34,7 +34,7 @@ highlight_language = 'rst'
 linter = 'rstcheck'
 autosummary_generate = True
 autoclass_content = "class"
-
+latex_engine = 'pdflatex' # 'xelatex' | 'lualatex'
 templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and

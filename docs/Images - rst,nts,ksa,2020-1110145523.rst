@@ -29,7 +29,8 @@ Examples
 ..    :scale: 50
 ..    :alt: alternate text
 
-
 **********************************************************************
 References
 **********************************************************************
+
+- `Sphinx ➤ RST ➤ Primer # Images <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#images>`_

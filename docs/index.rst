@@ -34,6 +34,8 @@ Contents
 
    Subscript and superscript - rst,nts,ksa,2020-1110201648
 
+   Math - rst,nts,ksa,2020-1110203418
+
    Code - rst,nts,ksa,2020-1110070327
 
    Lists - rst,nts,ksa,2020-1110065835
