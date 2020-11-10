@@ -30,6 +30,7 @@ nitpicky = True
 numfig = True
 smartquotes = True
 language = "en"
+highlight_language = 'rst'
 linter = 'rstcheck'
 autosummary_generate = True
 autoclass_content = "class"

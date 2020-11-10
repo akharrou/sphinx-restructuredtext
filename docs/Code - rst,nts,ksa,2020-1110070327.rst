@@ -18,7 +18,7 @@ you can even directly paste in doctests
 >>> 1 + 1
 2
 
-- Project wide highlighting configured with: ``highlight_language``, in your ``conf.py``.
+- Project wide highlighting configured with: ``highlight_language = 'language'``, in your ``conf.py``.
 - Document wide highlighting configured with: ``.. highlight:: language``, at top of document.
 - Block-by-block highlighting configured with: ``.. codeblock:: language``, per block.
 
@@ -38,22 +38,52 @@ Out
 
     This is ``code`` that is inlined
 
-Double colon codeblock
+Literal blocks
 ============================================================
 
 In
     .. code-block:: rst
 
-        This is a snippet of code::
+        Expanded form:
 
-            import os
-            print('hello world !')
+            Paragraph:
 
+            ::
+
+                Literal block
+
+        Partially minimized form:
+
+            Paragraph: ::
+
+                Literal block
+
+        Fully minimized form:
+
+            Paragraph::
+
+                Literal block
 Out
-    This is a snippet of code::
 
-        import os
-        print('hello world !')
+        Expanded form:
+
+            Paragraph:
+
+            ::
+
+                Literal block
+
+        Partially minimized form:
+
+            Paragraph: ::
+
+                Literal block
+
+        Fully minimized form:
+
+            Paragraph::
+
+                Literal block
 
 Codeblock directive
 ============================================================
@@ -97,4 +127,5 @@ References
 
 - `Sphinx ➤ RST ➤ Basics # Inline markup <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup>`_
 - `Sphinx ➤ RST ➤ Basics # Literal blocks <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#literal-blocks>`_
+- `Docutils ➤ RST ➤ Literal blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#literal-blocks>`_
 - `Write the docs ➤ RST ➤ Code samples <https://www.writethedocs.org/guide/writing/reStructuredText/#code-samples>`_
