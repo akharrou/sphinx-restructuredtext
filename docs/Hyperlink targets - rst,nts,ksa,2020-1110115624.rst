@@ -8,7 +8,7 @@ Synopsis
 
 Hyperlink targets are markers in your document that identify a location, within
 or outside of the document, which may be linked to by hyperlink references.
-You can create them with the ``.. _marker-name: location`` syntax.
+You can create them with the ``.. _marker-name: dest-location`` syntax.
 
 **********************************************************************
 Examples
@@ -41,6 +41,24 @@ Out
     The hyperlink target above points to this paragraph.
     The targets "paragraph" and "target" are synonyms; they both
     point to this paragraph.
+
+Inline internal targets
+============================================================
+
+In
+    ::
+
+        _`Norwegian Blue`
+            it's simple the best blue in the world
+
+        Here's the first occurrence of the `Norwegian Blue`_ !
+
+Out
+
+    _`Norwegian Blue`
+        it's simple the best blue in the world
+
+    Here's the first occurrence of the `Norwegian Blue`_ !
 
 External targets
 ============================================================
@@ -149,6 +167,7 @@ References
 
 - `Docutils ➤ Spec. ➤ Hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#hyperlink-targets>`_
 - `Docutils ➤ Spec. ➤ Internal hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#internal-hyperlink-targets>`_
+- `Docutils ➤ Spec. ➤ Inline internal hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#inline-internal-targets>`_
 - `Docutils ➤ Spec. ➤ External hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#external-hyperlink-targets>`_
 - `Docutils ➤ Spec. ➤ Indirect hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#indirect-hyperlink-targets>`_
 - `Docutils ➤ Spec. ➤ Implicit hyperlink targets <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#implicit-hyperlink-targets>`_

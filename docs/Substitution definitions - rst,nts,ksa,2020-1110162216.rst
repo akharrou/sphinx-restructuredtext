@@ -26,7 +26,7 @@ In
         .. |name| replace:: **John Doe**
 
         .. |lion| image:: _assets/lion.jpg
-                    :scale: 50%
+            :scale: 50%
 
 Out
 
@@ -35,7 +35,7 @@ Out
     .. |name| replace:: **John Doe**
 
     .. |lion| image:: _assets/lion.jpg
-                :scale: 50%
+        :scale: 50%
 
 **********************************************************************
 References

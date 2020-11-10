@@ -40,6 +40,8 @@ Out
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. [#note]_
 
+    .. [#note] Footnote content
+
 
 Citations
 ============================================================
@@ -116,9 +118,16 @@ Directives
 In
     ::
 
-
+        .. image:: _assets/lion.jpg
+            :scale: 50 %
+            :alt: favorite lion
+            :align: left
 
 Out
+
+    .. image:: _assets/lion.jpg
+        :scale: 50 %
+        :alt: favorite lion
 
 Substitution definitions
 ============================================================
@@ -126,9 +135,15 @@ Substitution definitions
 In
     ::
 
+        Meet |name| !
 
+        .. |name| replace:: **John Doe**
 
 Out
+
+    Meet |name| !
+
+    .. |name| replace:: **John Doe**
 
 Comments
 ============================================================
@@ -136,14 +151,14 @@ Comments
 In
     ::
 
-
+        .. some restructuredtext
 
 Out
+
+    .. some restructuredtext
 
 **********************************************************************
 References
 **********************************************************************
 
 - `Docutils ➤ Spec. ➤ Explicit markup blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#explicit-markup-blocks>`_
-
-.. [#note] Footnote content
