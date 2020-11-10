@@ -66,6 +66,8 @@ Contents
 
    Images - rst,nts,ksa,2020-1110145523
 
+   List tables - rst,nts,ksa,2020-1110234205
+
    CSV tables - rst,nts,ksa,2020-1110215241
 
    Epigraph - rst,nts,ksa,2020-1110214753
@@ -74,6 +76,6 @@ Contents
 
    Only directive - rst,nts,ksa,2020-1110212803
 
-   Extensions
+.. Extensions
 
    Markdown - rst,nts,ksa,2020-1109222148

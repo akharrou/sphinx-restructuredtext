@@ -24,6 +24,8 @@ release = '0.1.0' # full version, including alpha/beta/rc tags
 
 # -- General configuration ---------------------------------------------------
 
+needs_sphinx = '3.3.0'
+
 master_doc = 'index'
 primary_domain = None
 nitpicky = True
@@ -36,6 +38,39 @@ autosummary_generate = True
 autoclass_content = "class"
 latex_engine = 'pdflatex' # 'xelatex' | 'lualatex'
 templates_path = ['_templates']
+
+rst_epilog = """
+.. |psf| replace:: Python Software Foundation
+"""
+
+rst_prolog = """
+.. |psf| replace:: Python Software Foundation
+"""
+
+suppress_warnings = [
+    # 'app.add_node',
+    # 'app.add_directive',
+    # 'app.add_role',
+    # 'app.add_generic_role',
+    # 'app.add_source_parser',
+    # 'download.not_readable',
+    # 'image.not_readable',
+    # 'ref.term',
+    # 'ref.ref',
+    # 'ref.numref',
+    # 'ref.keyword',
+    # 'ref.option',
+    # 'ref.citation',
+    # 'ref.footnote',
+    # 'ref.doc',
+    # 'ref.python',
+    # 'misc.highlighting_failure',
+    # 'toc.circular',
+    # 'toc.secnum',
+    # 'epub.unknown_project_files',
+    # 'epub.duplicated_toc_entry',
+    # 'autosectionlabel.*'
+]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
