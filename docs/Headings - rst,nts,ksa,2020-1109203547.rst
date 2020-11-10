@@ -6,7 +6,7 @@ RST ➤ Headings
 Synopsis
 ************************************************************
 
-You can insert headings by using one of the following characters to underline, and optionally, overline, text. The order in which you declare them is the order in which they will be ranked in terms of assignment from ``<h1>`` to ``<h6>``.
+You can insert headings by using one of the following characters to underline, and optionally, overline, text. The order in which you declare them is the order in which they will be ranked, going from ``<h1>`` to ``<h6>``.
 
 * ``#``, for parts
 * ``*``, for chapters
@@ -14,7 +14,6 @@ You can insert headings by using one of the following characters to underline, a
 * ``-``, for subsections
 * ``^``, for subsubsections
 * ``"``, for paragraphs
-
 
 ************************************************************
 Examples
