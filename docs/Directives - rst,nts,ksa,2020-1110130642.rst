@@ -23,6 +23,30 @@ There are three logical parts to the directive block:
     The larch.              <--- 3. directive content
 
 **********************************************************************
+Examples
+**********************************************************************
+
+Image directive
+============================================================
+
+In
+    ::
+
+        .. image:: _assets/lion.jpg
+            :scale: 50 %
+            :alt: favorite lion
+            :align: left
+
+Out
+
+    .. image:: _assets/lion.jpg
+        :scale: 50 %
+        :alt: favorite lion
+        :align: left
+
+----
+
+**********************************************************************
 References
 **********************************************************************
 
