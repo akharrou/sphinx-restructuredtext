@@ -136,4 +136,4 @@ RST ➤ Overview
 References
 **********************************************************************
 
-- `Docutils ➤ RST ➤ Quick syntax <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#quick-syntax-overview>`_
+- `Docutils ➤ Spec. ➤ Quick syntax <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#quick-syntax-overview>`_

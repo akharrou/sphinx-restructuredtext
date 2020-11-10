@@ -93,4 +93,4 @@ Out
 References
 **********************************************************************
 
-- `Docutils ➤ RST ➤ Footnotes <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#footnotes>`_
+- `Docutils ➤ Spec. ➤ Footnotes <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#footnotes>`_

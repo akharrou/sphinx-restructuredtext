@@ -38,4 +38,4 @@ Out
 References
 **********************************************************************
 
-- `Docutils ➤ RST ➤ Citations <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#citations>`_
+- `Docutils ➤ Spec. ➤ Citations <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#citations>`_

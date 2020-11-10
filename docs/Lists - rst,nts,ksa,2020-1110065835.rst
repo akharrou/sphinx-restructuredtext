@@ -218,8 +218,8 @@ References
 **********************************************************************
 
 - `Spinx ➤ RST ➤ Basics # Lists <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#lists-and-quote-like-blocks>`_
-- `Docutils ➤ RST ➤ Bullet lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#bullet-lists>`_
-- `Docutils ➤ RST ➤ Enumerated lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#enumerated-lists>`_
-- `Docutils ➤ RST ➤ Definition Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#definition-lists>`_
-- `Docutils ➤ RST ➤ Field Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#field-lists>`_
-- `Docutils ➤ RST ➤ Option Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#option-lists>`_
+- `Docutils ➤ Spec. ➤ Bullet lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#bullet-lists>`_
+- `Docutils ➤ Spec. ➤ Enumerated lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#enumerated-lists>`_
+- `Docutils ➤ Spec. ➤ Definition Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#definition-lists>`_
+- `Docutils ➤ Spec. ➤ Field Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#field-lists>`_
+- `Docutils ➤ Spec. ➤ Option Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#option-lists>`_

@@ -91,5 +91,5 @@ References
 **********************************************************************
 
 - `Sphinx ➤ RST ➤ Basics # Paragraphs <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#paragraphs>`_
-- `Docutils ➤ RST ➤ Paragraphs <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#paragraphs>`_
-- `Docutils ➤ RST ➤ Line blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#line-blocks>`_
+- `Docutils ➤ Spec. ➤ Paragraphs <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#paragraphs>`_
+- `Docutils ➤ Spec. ➤ Line blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#line-blocks>`_

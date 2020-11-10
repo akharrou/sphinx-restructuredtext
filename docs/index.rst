@@ -46,6 +46,12 @@ Contents
 
    Hyperlink targets - rst,nts,ksa,2020-1110115624
 
-   Hyperlinks references - rst,nts,ksa,2020-1109165211
+   Hyperlink references - rst,nts,ksa,2020-1109165211
+
+   Directives - rst,nts,ksa,2020-1110130642
+
+   Images - rst,nts,ksa,2020-1110145523
+
+   Comments - rst,nts,ksa,2020-1110152324
 
    Markdown - rst,nts,ksa,2020-1109222148

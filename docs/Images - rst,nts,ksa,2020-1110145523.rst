@@ -1,37 +1,35 @@
 ################################################################################
-RST ➤ Transitions
+RST ➤ Images
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-Full page horizontal rules are supported.
+
 
 **********************************************************************
 Examples
 **********************************************************************
 
-In
 
-    ::
+.. To include an image in your document, you use the the image directive. For example:
 
-        text
+.. .. image:: images/biohazard.png
 
-        ----
+.. results in:
 
-        text
+.. images/biohazard.png
 
-Out
+.. The images/biohazard.png part indicates the filename of the image you wish to appear in the document. There's no restriction placed on the image (format, size etc). If the image is to appear in HTML and you wish to supply additional information, you may:
 
-    text
+.. .. image:: images/biohazard.png
+..    :height: 100
+..    :width: 200
+..    :scale: 50
+..    :alt: alternate text
 
-----
-
-    text
 
 **********************************************************************
 References
 **********************************************************************
-
-- `Docutils ➤ Spec. ➤ Transitions <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#transitions>`_

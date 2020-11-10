@@ -1,5 +1,5 @@
 ################################################################################
-RST ➤ Hyperlinks references
+RST ➤ Hyperlink references
 ################################################################################
 
 
@@ -124,6 +124,6 @@ Out
 References
 **********************************************************************
 
-- `Sphinx ➤ RST ➤ Basics # Hyperlinks references <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_
+- `Sphinx ➤ RST ➤ Basics # Hyperlink references <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_
 - `Sphinx ➤ RST ➤ Roles <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html>`_
 - `Sphinx ➤ Extensions ➤ sphinx.ext.autosectionlabel <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html>`_

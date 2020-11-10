@@ -98,6 +98,6 @@ Out
 References
 **********************************************************************
 
-- `Docutils ➤ RST ➤ Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables>`_
-- `Docutils ➤ RST ➤ Grid Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#grid-tables>`_
-- `Docutils ➤ RST ➤ Simple Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#simple-tables>`_
+- `Docutils ➤ Spec. ➤ Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#tables>`_
+- `Docutils ➤ Spec. ➤ Grid Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#grid-tables>`_
+- `Docutils ➤ Spec. ➤ Simple Tables <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#simple-tables>`_
