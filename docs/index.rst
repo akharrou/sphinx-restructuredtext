@@ -44,6 +44,8 @@ Contents
 
    Citations - rst,nts,ksa,2020-1110112449
 
-   Hyperlinks - rst,nts,ksa,2020-1109165211
+   Hyperlink targets - rst,nts,ksa,2020-1110115624
+
+   Hyperlinks references - rst,nts,ksa,2020-1109165211
 
    Markdown - rst,nts,ksa,2020-1109222148

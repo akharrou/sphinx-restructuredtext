@@ -14,8 +14,8 @@ Explicit blocks are text blocks:
 
 They are used for:
 
-- :doc:`Footnotes <Footnotes - rst,nts,ksa,2020-1110104849>`
-- citations
+- :doc:`footnotes <Footnotes - rst,nts,ksa,2020-1110104849>`
+- :doc:`citations <Citations - rst,nts,ksa,2020-1110112449>`
 - hyperlink targets
 - directives
 - substitution definitions
@@ -71,6 +71,16 @@ In
     ::
 
 
+        Internal hyperlink targets:
+
+        External hyperlink targets:
+
+            See the Python_ home page for info.
+
+            `Write to me`_ with your questions.
+
+            .. _Python: http://www.python.org
+            .. _Write to me: jdoe@example.com
 
 Out
 

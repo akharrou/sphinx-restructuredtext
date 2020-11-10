@@ -25,7 +25,6 @@ In
             This is the citation.  It's just like a footnote,
             except the label is textual.
 
-
 Out
 
     Here is a citation reference: [CIT2002]_.
