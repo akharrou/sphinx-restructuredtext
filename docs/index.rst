@@ -34,6 +34,8 @@ Contents
 
    Lists - rst,nts,ksa,2020-1110065835
 
+   Tables - rst,nts,ksa,2020-1110092328
+
    Hyperlinks - rst,nts,ksa,2020-1109165211
 
    Footnotes - rst,nts,ksa,2020-1109200526
