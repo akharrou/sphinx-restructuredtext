@@ -30,6 +30,10 @@ Contents
 
    Formatting - rst,nts,ksa,2020-1109221434
 
+   Code - rst,nts,ksa,2020-1110070327
+
+   Lists - rst,nts,ksa,2020-110065835
+
    Hyperlinks - rst,nts,ksa,2020-1109165211
 
    Footnotes - rst,nts,ksa,2020-1109200526

@@ -1,0 +1,100 @@
+
+.. highlight:: rst
+
+################################################################################
+RST ➤ Code
+################################################################################
+
+**********************************************************************
+Synopsis
+**********************************************************************
+
+You can write inline ``code`` as well as::
+
+    codeblock
+
+you can even directly paste in doctests
+
+>>> 1 + 1
+2
+
+- Project wide highlighting configured with: ``highlight_language``, in your ``conf.py``.
+- Document wide highlighting configured with: ``.. highlight:: language``, at top of document.
+- Block-by-block highlighting configured with: ``.. codeblock:: language``, per block.
+
+**********************************************************************
+Examples
+**********************************************************************
+
+Inline
+============================================================
+
+In
+    .. code-block:: rst
+
+        This is ``code`` that is inlined
+
+Out
+
+    This is ``code`` that is inlined
+
+Double colon codeblock
+============================================================
+
+In
+    .. code-block:: rst
+
+        This is a snippet of code::
+
+            import os
+            print('hello world !')
+
+Out
+    This is a snippet of code::
+
+        import os
+        print('hello world !')
+
+Codeblock directive
+============================================================
+
+In
+    .. code-block:: rst
+
+        This is a snippet of code
+
+        .. code-block:: python
+
+            import os
+            print('hello world !')
+
+Out
+
+    This is a snippet of code
+
+    .. code-block:: python
+
+        import os
+        print('hello world !')
+
+Doctest blocks
+============================================================
+
+In
+    .. code-block:: rst
+
+        >>> 1 + 1
+        2
+
+Out
+
+    >>> 1 + 1
+    2
+
+**********************************************************************
+References
+**********************************************************************
+
+- `Sphinx ➤ RST ➤ Basics # Inline markup <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup>`_
+- `Sphinx ➤ RST ➤ Basics # Literal blocks <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#literal-blocks>`_
+- `Write the docs ➤ RST ➤ Code samples <https://www.writethedocs.org/guide/writing/reStructuredText/#code-samples>`_
