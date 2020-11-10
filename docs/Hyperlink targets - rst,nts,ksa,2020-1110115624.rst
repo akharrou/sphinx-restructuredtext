@@ -26,7 +26,7 @@ In
         .. _paragraph:
         .. _target:
 
-        The hyperlink target above points to this paragraph.
+        The hyperlink targets above points to this paragraph.
         The targets "paragraph" and "target" are synonyms; they both
         point to this paragraph.
 
@@ -49,16 +49,18 @@ In
     ::
 
         _`Norwegian Blue`
-            it's simple the best blue in the world
+            a hyperlink target that is made on the fly, inline
 
-        Here's the first occurrence of the `Norwegian Blue`_ !
+        You can create a link that redirects to its declaration location by
+        simply stating it with an underscore at the end: ```Norwegian
+        Blue`_`` -> `Norwegian Blue`_ !
 
 Out
 
     _`Norwegian Blue`
-        it's simple the best blue in the world
+        a hyperlink target that is made on the fly, inline
 
-    Here's the first occurrence of the `Norwegian Blue`_ !
+    You can create a link that redirects to its declaration location by simply stating it with an underscore at the end: ```Norwegian Blue`_`` -> `Norwegian Blue`_ !
 
 External targets
 ============================================================
@@ -94,7 +96,7 @@ Out
     .. _Doc-SIG: http://
         mail.python.org/pipermail/doc-sig/
 
-    .. note::   The targets directly above ``Doc-SIG`` inherit the end location.
+    .. note::   The targets directly above ``_Doc-SIG`` inherit the end location.
                 Also we call these chained targets.
 
 Indirect targets
@@ -122,7 +124,7 @@ Out
     .. _three:
 
     This paragraph is your final destination, whether you picked
-    ``one``, ``two``, ``three``.
+    ``one``, ``two`` or ``three``.
 
 Implicit targets
 ============================================================

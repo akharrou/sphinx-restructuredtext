@@ -6,7 +6,9 @@ RST ➤ Hyperlinking
 Synopsis
 **********************************************************************
 
-You can hyperlink to all kinds of things, all the way from webpage, to local documents, sections, to particular paragraphs, images, and any content. And there's a couple dozen ways of doing so:
+You can hyperlink to all kinds of things: webpages, local documents (files), sections, particular paragraphs, images, and any content.
+
+There's a couple dozen ways of hyperlinking, here are a few:
 
 - `standalone hyperlinks`_
 - `embedded URI, aliases`_
@@ -14,6 +16,8 @@ You can hyperlink to all kinds of things, all the way from webpage, to local doc
 - `section hyperlinks`_
 - `download hyperlinks`_
 - `abritrary hyperlinks (references to targets)`_
+
+... and there are way more ! See `Sphinx ➤ RST ➤ Roles <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html>`_.
 
 **********************************************************************
 Examples

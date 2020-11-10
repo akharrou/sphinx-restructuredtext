@@ -2,22 +2,37 @@
 RST ➤ Hyperlink references
 ################################################################################
 
-Hyperlink references are pointers to markers, i.e they create a clickable link (pointer) that when clicked redirects (point) to wherever the hyperlink target (marker) points to.
-
-They have a syntax of the following form: ```marker-name`_``.
-
 **********************************************************************
 Synopsis
 **********************************************************************
 
-
+Hyperlink references are pointers to markers. They render to clickable links
+that redirect (points) to wherever the matching hyperlink target (marker)
+points to.
+Hyperlink refernces follow the form: ```marker-name`_``.
 
 **********************************************************************
 Examples
 **********************************************************************
 
+Basic
+============================================================
 
+In
+    ::
+
+        .. _Python: https://www.python.org/   <--- target, marker
+
+        See the Python_ home page for info.   <--- reference, pointer
+
+Out
+
+    .. _Python: https://www.python.org/
+
+    See the Python_ home page for info.
 
 **********************************************************************
 References
 **********************************************************************
+
+- `Docutils ➤ RST ➤ Hyerplink references <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#hyperlink-references>`_
