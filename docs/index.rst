@@ -32,10 +32,6 @@ Contents
 
    Formatting - rst,nts,ksa,2020-1109221434
 
-   Subscript and superscript - rst,nts,ksa,2020-1110201648
-
-   Math - rst,nts,ksa,2020-1110203418
-
    Code - rst,nts,ksa,2020-1110070327
 
    Lists - rst,nts,ksa,2020-1110065835
@@ -58,11 +54,17 @@ Contents
 
    Comments - rst,nts,ksa,2020-1110152324
 
-   Metadata - rst,nts,ksa,2020-1110202725
-
    Directives - rst,nts,ksa,2020-1110130642
 
+   Subscript and superscript - rst,nts,ksa,2020-1110201648
+
+   Math - rst,nts,ksa,2020-1110203418
+
+   Admonitions - rst,nts,ksa,2020-1110205728
+
    Images - rst,nts,ksa,2020-1110145523
+
+   Metadata - rst,nts,ksa,2020-1110202725
 
    Extensions
 

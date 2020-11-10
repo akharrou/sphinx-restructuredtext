@@ -24,14 +24,14 @@ Out
 
         .. image:: _assets/lion.jpg
 
-Custom output
+Customized
 ============================================================
 
 In
     ::
 
         .. image:: _assets/lion.jpg
-            :height: 100
+            :height: 200
             :width: 200
             :scale: 50
             :alt: alternate text
@@ -39,7 +39,7 @@ In
 Out
 
         .. image:: _assets/lion.jpg
-            :height: 100
+            :height: 200
             :width: 200
             :scale: 50
             :alt: alternate text
@@ -49,3 +49,4 @@ References
 **********************************************************************
 
 - `Sphinx ➤ RST ➤ Primer # Images <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#images>`_
+- `Docutils ➤ Directives ➤ Images <https://docutils.sourceforge.io/docs/ref/rst/directives.html#images>`_
