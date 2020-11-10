@@ -17,9 +17,9 @@ They are used for:
 - :doc:`footnotes <Footnotes - rst,nts,ksa,2020-1110104849>`
 - :doc:`citations <Citations - rst,nts,ksa,2020-1110112449>`
 - :doc:`hyperlink targets <Hyperlink targets - rst,nts,ksa,2020-1110115624>`
-- directives
-- substitution definitions
-- comments
+- :doc:`directives <Directives - rst,nts,ksa,2020-1110130642>`
+- :doc:`substitution definitions <Substitution definitions - rst,nts,ksa,2020-1110162216>`
+- :doc:`comments <Comments - rst,nts,ksa,2020-1110152324>`
 
 **********************************************************************
 Examples

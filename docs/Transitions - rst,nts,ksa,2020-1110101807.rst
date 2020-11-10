@@ -6,7 +6,7 @@ RST ➤ Transitions
 Synopsis
 **********************************************************************
 
-Full page horizontal rules are supported.
+Full page horizontal rules are supported with the ``----`` syntax.
 
 **********************************************************************
 Examples

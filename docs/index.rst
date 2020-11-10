@@ -6,7 +6,7 @@
 Home
 =============================================
 
-Hello, these are my notes on reStructuredText. You can get started with the :doc:`Overview - rst,nts,ksa,2020-1109222609`.
+Hello, these are some notes on reStructuredText. You can get started with the :doc:`Overview - rst,nts,ksa,2020-1109222609`.
 
 Indices and tables
 ------------------
@@ -48,10 +48,14 @@ Contents
 
    Hyperlink references - rst,nts,ksa,2020-1109165211
 
+   Substitution definitions - rst,nts,ksa,2020-1110162216
+
+   Comments - rst,nts,ksa,2020-1110152324
+
    Directives - rst,nts,ksa,2020-1110130642
 
    Images - rst,nts,ksa,2020-1110145523
 
-   Comments - rst,nts,ksa,2020-1110152324
+   Extensions
 
    Markdown - rst,nts,ksa,2020-1109222148

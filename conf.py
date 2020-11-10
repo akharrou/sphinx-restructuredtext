@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Markdown Notebook'
-copyright = '2020, akharrou'
+copyright = '2020, 💎 Akharrou'
 author = 'akharrou'
 release = '0.1.0' # full version, including alpha/beta/rc tags
 

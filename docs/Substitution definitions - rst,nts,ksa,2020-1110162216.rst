@@ -1,36 +1,21 @@
 ################################################################################
-RST ➤ Formatting
+RST ➤ Substitution definitions
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-You have the following facilities available for text formatting:
 
-- emphasis (italics), with ``*text*`` syntax
-- strong emphasis (boldface), with ``**text**`` syntax
 
 **********************************************************************
 Examples
 **********************************************************************
 
-In
 
-    ::
-
-        some *text* is italic
-
-        some other **text** is bold
-
-Out
-
-    some *text* is italic
-
-    some other **text** is bold
 
 **********************************************************************
 References
 **********************************************************************
 
-- `Sphinx ➤ RST ➤ Basic # Inline markup <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup>`_
+- `Docutils ➤ RST ➤ Substitutino definitions <>`_

@@ -6,9 +6,7 @@ RST ➤ Paragraphs
 Synopsis
 **********************************************************************
 
-You can write parargaphs by typing chunks of text separated by one or more blank lines, left-aligned to the same level of indentation.
-
-You also have verse like paragraph lines with line blocks.
+You can write parargaphs by typing chunks of text, separated by one or more blank lines, left-aligned to the same level of indentation. Also available are verse styled lines, called "line blocks".
 
 **********************************************************************
 Examples
@@ -22,18 +20,32 @@ In
     ::
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel
-        quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna
-        fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper
-        risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum.
-        Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec
-        massa sapien faucibus. At imperdiet dui accumsan sit amet nulla
-        facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices
-        dui. Sed faucibus turpis in eu mi bibendum.
+        tempor incididunt ut labore et dolore magna aliqua.
+        Quisque id diam vel quam elementum pulvinar.
+        Orci nulla pellentesque dignissim enim.
+        Magna fringilla urna porttitor rhoncus dolor purus.
+        Mollis nunc sed id semper risus in hendrerit gravida rutrum.
+
+        Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod
+        elementum. Consectetur lorem donec massa sapien faucibus. At
+        imperdiet dui accumsan sit amet nulla facilisi morbi tempus.
+        Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus
+        turpis in eu mi bibendum.
 
 Out
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec massa sapien faucibus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus turpis in eu mi bibendum.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+    Quisque id diam vel quam elementum pulvinar.
+    Orci nulla pellentesque dignissim enim.
+    Magna fringilla urna porttitor rhoncus dolor purus.
+    Mollis nunc sed id semper risus in hendrerit gravida rutrum.
+
+    Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod
+    elementum. Consectetur lorem donec massa sapien faucibus. At
+    imperdiet dui accumsan sit amet nulla facilisi morbi tempus.
+    Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus
+    turpis in eu mi bibendum.
 
 Line blocks
 ============================================================

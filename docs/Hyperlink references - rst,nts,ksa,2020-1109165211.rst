@@ -104,7 +104,6 @@ Out
 
     See :ref:`specimen:Blockquotes`
 
-
 External links
 ============================================================
 
@@ -119,6 +118,12 @@ Out
 
     Checkout Sphinx `here ! <https://www.sphinx-doc.org>`_
 
+Standalone links
+============================================================
+
+A URI (absolute URI [16] or standalone email address) within a text block is treated as a general external hyperlink with the URI itself as the link's text. For example:
+
+See http://www.python.org for info.
 
 **********************************************************************
 References
