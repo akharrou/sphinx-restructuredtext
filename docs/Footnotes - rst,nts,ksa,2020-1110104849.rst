@@ -6,7 +6,9 @@ RST ➤ Footnotes
 Synopsis
 **********************************************************************
 
-Footnotes are supported. Footnote labels can be:
+Footnotes are supported with the ``[#label]_``, ``.. [#label] def`` syntax.
+
+Footnote labels can be:
 
 - decimal number
 - ``#`` (:ref:`Footnotes - rst,nts,ksa,2020-1110104849:Auto-numbered footnotes`)

@@ -11,9 +11,9 @@ Synopsis
 
 You can write inline ``code`` as well as::
 
-    codeblock
+    codeblocks
 
-you can even directly paste in doctests
+you can even directly paste in Python interactive sessions (doctests):
 
 >>> 1 + 1
 2

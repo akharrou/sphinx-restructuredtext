@@ -6,31 +6,29 @@ RST ➤ Markdown
 Synopsis
 **********************************************************************
 
-Sphinx can read Markdown source files, with just a few configuration tweaks.
+Sphinx can support Markdown source files with just a few configuration tweaks:
 
-.. note:: Sphinx Configurations
+.. code-block:: bash
 
-    .. code-block:: bash
+    pip install --upgrade recommonmark
 
-        pip install --upgrade recommonmark
+Add the following to your ``conf.py``:
 
-    Add the following to your ``conf.py``:
+.. code-block:: python
 
-    .. code-block:: python
+    from recommonmark.parser import CommonMarkParser
 
-        from recommonmark.parser import CommonMarkParser
+    extensions.append('recommonmark')
 
-        extensions.append('recommonmark')
+    source_suffix = {
+        '.rst': 'restructuredtext',
+        '.txt': 'markdown',
+        '.md': 'markdown',
+    }
 
-        source_suffix = {
-            '.rst': 'restructuredtext',
-            '.txt': 'markdown',
-            '.md': 'markdown',
-        }
-
-        source_parsers = {
-            '.md': CommonMarkParser,
-        }
+    source_parsers = {
+        '.md': CommonMarkParser,
+    }
 
 **********************************************************************
 References

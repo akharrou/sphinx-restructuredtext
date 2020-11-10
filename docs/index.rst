@@ -40,8 +40,10 @@ Contents
 
    Explicit markup blocks - rst,nts,ksa,2020-1110101315
 
-   Hyperlinks - rst,nts,ksa,2020-1109165211
-
    Footnotes - rst,nts,ksa,2020-1110104849
+
+   Citations - rst,nts,ksa,2020-1110112449
+
+   Hyperlinks - rst,nts,ksa,2020-1109165211
 
    Markdown - rst,nts,ksa,2020-1109222148

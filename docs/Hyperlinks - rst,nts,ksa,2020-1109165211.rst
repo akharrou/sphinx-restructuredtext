@@ -84,11 +84,11 @@ In
 
     ::
 
-        See :doc:`specimen` !
+        See :doc:`Footnotes <Footnotes - rst,nts,ksa,2020-1110104849>`
 
 Out
 
-    See :doc:`specimen` !
+    See :doc:`Footnotes <Footnotes - rst,nts,ksa,2020-1110104849>` !
 
 Reference sections
 --------------------------------------------------
