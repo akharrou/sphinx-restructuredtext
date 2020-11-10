@@ -6,7 +6,8 @@ RST ➤ Epigraph
 Synopsis
 **********************************************************************
 
-Epigraph (short quotes) are supported with the ``.. epigraph::`` directive.
+Epigraph (short quotes) are supported with the ``.. epigraph::`` or
+``.. highlights::`` directive.
 
 **********************************************************************
 Examples
@@ -22,9 +23,15 @@ In
 
         .. epigraph::
 
-        No matter where you go, there you are.
+            No matter where you go, there you are.
 
-        -- Buckaroo Banzai
+            -- Buckaroo Banzai
+
+        .. highlights::
+
+            Know thyself.
+
+            -- Greek philosopher
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar.
 
@@ -37,6 +44,12 @@ Out
         No matter where you go, there you are.
 
         -- Buckaroo Banzai
+
+    .. highlights::
+
+        Know thyself.
+
+        -- Greek philosopher
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar.
 

@@ -66,6 +66,8 @@ Contents
 
    Images - rst,nts,ksa,2020-1110145523
 
+   CSV tables - rst,nts,ksa,2020-1110215241
+
    Epigraph - rst,nts,ksa,2020-1110214753
 
    Metadata - rst,nts,ksa,2020-1110202725
