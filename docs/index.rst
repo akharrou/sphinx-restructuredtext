@@ -56,6 +56,8 @@ Contents
 
    Comments - rst,nts,ksa,2020-1110152324
 
+   Metadata - rst,nts,ksa,2020-1110202725
+
    Directives - rst,nts,ksa,2020-1110130642
 
    Images - rst,nts,ksa,2020-1110145523
