@@ -6,28 +6,43 @@ RST ➤ Images
 Synopsis
 **********************************************************************
 
-
+Images are supported with the ``images`` directive.
 
 **********************************************************************
 Examples
 **********************************************************************
 
+Basic
+============================================================
 
-.. To include an image in your document, you use the the image directive. For example:
+In
+    ::
 
-.. .. image:: images/biohazard.png
+        .. image:: _assets/lion.jpg
 
-.. results in:
+Out
 
-.. images/biohazard.png
+        .. image:: _assets/lion.jpg
 
-.. The images/biohazard.png part indicates the filename of the image you wish to appear in the document. There's no restriction placed on the image (format, size etc). If the image is to appear in HTML and you wish to supply additional information, you may:
+Custom output
+============================================================
 
-.. .. image:: images/biohazard.png
-..    :height: 100
-..    :width: 200
-..    :scale: 50
-..    :alt: alternate text
+In
+    ::
+
+        .. image:: _assets/lion.jpg
+            :height: 100
+            :width: 200
+            :scale: 50
+            :alt: alternate text
+
+Out
+
+        .. image:: _assets/lion.jpg
+            :height: 100
+            :width: 200
+            :scale: 50
+            :alt: alternate text
 
 **********************************************************************
 References
