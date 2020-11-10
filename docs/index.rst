@@ -38,7 +38,7 @@ Contents
 
    Tables - rst,nts,ksa,2020-1110092328
 
-   Explicit blocks - rst,nts,ksa,2020-1110101315
+   Explicit markup blocks - rst,nts,ksa,2020-1110101315
 
    Hyperlinks - rst,nts,ksa,2020-1109165211
 
