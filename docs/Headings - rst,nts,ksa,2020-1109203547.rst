@@ -13,7 +13,7 @@ You can insert headings by using one of the following characters to underline, a
 * ``=``, for sections
 * ``-``, for subsections
 * ``^``, for subsubsections
-* ``"``, for paragraphs
+* ``'``, for paragraphs
 
 ************************************************************
 Examples
@@ -23,45 +23,43 @@ In
     ::
 
         ################################################################################
-        Part
+        Level 1 - Part
         ################################################################################
 
-        Chapter
+        ********************************************************************************
+        Level 2 - Chapter
         ********************************************************************************
 
-        Section
+        Level 3 - Section
         ============================================================
 
-        Subsection
-        ----------------------------------------
+        Level 4 - Subsection
+        --------------------------------------------------
 
-        Sub-subsection
-        ^^^^^^^^^^^^^^^^^^^^
+        Level 5 - Sub-subsection
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-        Paragraphs
-        """"""""""""""""
+        Level 6 - Paragraphs
+        ''''''''''''''''''''''''''''''
+
+        Level 7 - Paragraphs
+
 
 Out
 
-Section
+Level 3 - Section
 ============================================================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec massa sapien faucibus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus turpis in eu mi bibendum.
+Level 4 - Subsection
+--------------------------------------------------
 
-Subsection
-----------------------------------------
+Level 5 - Sub-subsection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec massa sapien faucibus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus turpis in eu mi bibendum.
+Level 6 - Paragraphs
+''''''''''''''''''''''''''''''
 
-Sub-subsection
-^^^^^^^^^^^^^^^^^^^^
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec massa sapien faucibus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus turpis in eu mi bibendum.
-
-Paragraph
-"""""""""
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel quam elementum pulvinar. Orci nulla pellentesque dignissim enim. Magna fringilla urna porttitor rhoncus dolor purus. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Faucibus turpis in eu mi bibendum. Ultrices neque ornare aenean euismod elementum. Consectetur lorem donec massa sapien faucibus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus turpis in eu mi bibendum.
+Level 7 - Text block
 
 ************************************************************
 References

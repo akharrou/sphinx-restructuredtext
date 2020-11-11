@@ -48,6 +48,7 @@ In
             :alt: lion
 
             Caption 2.
+
 Out
 
     .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg

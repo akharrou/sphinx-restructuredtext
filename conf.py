@@ -28,16 +28,17 @@ needs_sphinx = '3.3.0'
 
 master_doc = 'index'
 primary_domain = None
+highlight_language = 'rst'
 nitpicky = True
 numfig = True
 smartquotes = True
 language = "en"
-highlight_language = 'rst'
 linter = 'rstcheck'
 autosummary_generate = True
 autoclass_content = "class"
 latex_engine = 'pdflatex' # 'xelatex' | 'lualatex'
 templates_path = ['_templates']
+file_insertion_enabled = True
 
 rst_epilog = """
 .. |psf| replace:: Python Software Foundation
@@ -91,7 +92,18 @@ suppress_warnings = [
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [
+    '_archive'
+    '_build',
+    '.git',
+    '.gitignore',
+    '.vscode'
+    'Thumbs.db',
+    '.DS_Store',
+]
+
+
+# -- EXTENSIONS ----------------------------------------------------------------
 
 extensions = [
     # "sphinx.ext.autodoc",
@@ -131,6 +143,7 @@ autosectionlabel_maxdepth = 3
 # -- Options for HTML output -------------------------------------------------
 
 html_use_index = True
+html_split_index = True
 html_copy_source = True
 html_show_sourcelink = True
 html_show_copyright = True
@@ -139,16 +152,18 @@ html_compact_lists = True
 html_secnumber_suffix = '.'
 html_add_permalinks = '⚓︎'
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+html_css_files = []
+html_js_files = []
 html_static_path = ['_static']
-# html_css_files = ['']
-# html_js_files = ['']
+
+html_title = 'Docs'
+html_favicon = '_static/alfred_100.png'
 
 html_logo = '_static/alfred_100.png'
-html_favicon = '_static/alfred_100.png'
-html_title = 'Home'
+
+# html_additional_pages = {
+#     'title': 'file.html',
+# }
 
 
 # - THEMES - - - - - - - - - - - - - - - - - - - -

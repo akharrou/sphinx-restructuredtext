@@ -63,27 +63,22 @@ In
             Paragraph::
 
                 Literal block
+
 Out
 
     Expanded form:
-
-        Paragraph:
 
         ::
 
             Literal block
 
-    Partially minimized form:
+    Partially minimized form: ::
 
-        Paragraph: ::
+        Literal block
 
-            Literal block
+    Fully minimized form::
 
-    Fully minimized form:
-
-        Paragraph::
-
-            Literal block
+        Literal block
 
 Codeblock directive
 ============================================================
@@ -91,21 +86,61 @@ Codeblock directive
 In
     ::
 
-        This is a snippet of code
+        .. code-block:: none
 
-        .. code-block:: python
-
-            import os
-            print('hello world !')
+            $ tree vendor/composer
+            ├── ClassLoader.php
+            ├── LICENSE
+            ├── autoload_classmap.php
+            ├── ...
+            └── installed.json
 
 Out
 
-    This is a snippet of code
+    .. code-block:: none
 
-    .. code-block:: python
+            $ tree vendor/composer
+            ├── ClassLoader.php
+            ├── LICENSE
+            ├── autoload_classmap.php
+            ├── ...
+            └── installed.json
 
-        import os
-        print('hello world !')
+Emphasized, numbered lines
+============================================================
+
+In
+
+    ::
+
+        .. code-block:: javascript
+            :emphasize-lines: 1,5,8
+
+        var _extends = function(target) {
+            for (var i = 1; i < arguments.length; i++) {
+            var source = arguments[i];
+            for (var key in source) {
+                target[key] = source[key];
+            }
+            }
+            return target;
+        };
+
+Out
+
+    .. code-block:: javascript
+        :emphasize-lines: 1,5,8
+        :linenos:
+
+        var _extends = function(target) {
+            for (var i = 1; i < arguments.length; i++) {
+            var source = arguments[i];
+            for (var key in source) {
+                target[key] = source[key];
+            }
+            }
+            return target;
+        };
 
 Doctest blocks
 ============================================================

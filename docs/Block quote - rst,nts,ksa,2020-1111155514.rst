@@ -1,18 +1,13 @@
 ################################################################################
-RST ➤ Comments
+RST ➤ Block quote
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-Comment out anything by prepending the line with ``..``.
-
-.. note::
-
-    Explicit markup blocks recognized as either citation, directive,
-    footnote, hyperlink target or substitution definition will not
-    be processed as comments.
+Blocks of text that are indented relative to previous blocks of text
+are referred to as "*block quotes*".
 
 **********************************************************************
 Examples
@@ -24,16 +19,24 @@ Basic
 In
     ::
 
-    .. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    .. tempor incididunt ut labore et dolore magna aliqua.
+        This is an ordinary paragraph, introducing a block quote.
+
+            | It is my business to know things.  That is my trade."
+            | -- Sherlock Holmes
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Out
 
-    .. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    .. tempor incididunt ut labore et dolore magna aliqua.
+    This is an ordinary paragraph, introducing a block quote.
+
+        | "It is my business to know things.  That is my trade."
+        | -- Sherlock Holmes
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 **********************************************************************
 References
 **********************************************************************
 
-- `Docutils ➤ Spec. ➤ Comments <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#comments>`_
+- `Docutils ➤ Spec. ➤ Block quotes <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#block-quotes>`_

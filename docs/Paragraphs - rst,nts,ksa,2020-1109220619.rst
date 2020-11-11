@@ -8,18 +8,7 @@ Synopsis
 
 You can write parargaphs by typing chunks of text, separated by one or more blank lines, left-aligned to the same level of indentation.
 
-Also available are verse-like spaced lines, called "line blocks".
-Prepend the lines with a ``|``.
-
-Also available is the::
-
-    .. topic:: <title>
-
-        <paragraph>
-
-directive which gives a bolded title to the indented paragraph under it. If
-you wish to only have the title, you can use the ``.. rubric:: <title>``
-directive.
+Also available are verse-like paragraphs, called :doc:`line blocks <Line blocks - rst,nts,ksa,2020-1111144901>` and paragraphs with bolded titles with the :doc:`topic and rubric directives <Topic and rubric directives - rst,nts,ksa,2020-1111145233>`.
 
 **********************************************************************
 Examples
@@ -60,93 +49,9 @@ Out
     Rhoncus urna neque viverra justo nec ultrices dui. Sed faucibus
     turpis in eu mi bibendum.
 
-Line blocks
-============================================================
-
-In
-    ::
-
-        | Lend us a couple of bob till Thursday.
-        | I'm absolutely skint.
-        | But I'm expecting a postal order and I can pay you back
-        as soon as it comes.
-        | Love, Ewan.
-
-        Take it away, Eric the Orchestra Leader!
-
-            | A one, two, a one two three four
-            |
-            | Half a bee, philosophically,
-            |     must, *ipso facto*, half not be.
-            | But half the bee has got to be,
-            |     *vis a vis* its entity.  D'you see?
-            |
-            | But can a bee be said to be
-            |     or not to be an entire bee,
-            |         when half the bee is not a bee,
-            |             due to some ancient injury?
-            |
-            | Singing...
-
-Out
-
-    | Lend us a couple of bob till Thursday.
-    | I'm absolutely skint.
-    | But I'm expecting a postal order and I can pay you back as soon as it comes.
-    | Love, Ewan.
-
-    Take it away, Eric the Orchestra Leader!
-
-        | A one, two, a one two three four
-        |
-        | Half a bee, philosophically,
-        |     must, *ipso facto*, half not be.
-        | But half the bee has got to be,
-        |     *vis a vis* its entity.  D'you see?
-        |
-        | But can a bee be said to be
-        |     or not to be an entire bee,
-        |         when half the bee is not a bee,
-        |             due to some ancient injury?
-        |
-        | Singing...
-
-Topic and rubric directives
-============================================================
-
-In
-    ::
-
-        .. rubric:: John Doe in flesh
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel
-        quam elementum pulvinar.
-
-        .. topic:: Topic Title
-
-            Subsequent indented lines comprise
-            the body of the topic, and are
-            interpreted as body elements.
-
-Out
-
-    .. rubric:: John Doe in flesh
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel
-    quam elementum pulvinar.
-
-.. topic:: Topic Title
-
-    Subsequent indented lines comprise
-    the body of the topic, and are
-    interpreted as body elements.
-
 **********************************************************************
 References
 **********************************************************************
 
 - `Sphinx ➤ RST ➤ Basics # Paragraphs <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#paragraphs>`_
 - `Docutils ➤ Spec. ➤ Paragraphs <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#paragraphs>`_
-- `Docutils ➤ Spec. ➤ Line blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#line-blocks>`_
