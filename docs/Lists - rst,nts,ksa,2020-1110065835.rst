@@ -6,7 +6,13 @@ RST ➤ Lists
 Synopsis
 **********************************************************************
 
-Supported lists are: bullet lists, enumerated lists, definition lists, field lists and option lists.
+Supported lists are:
+
+- :doc:`bullet lists <Bullet lists - rst,nts,ksa,2020-1111170435>`
+- :doc:`enumerated lists <Enumerated lists - rst,nts,ksa,2020-1111165721>`
+- :doc:`definition lists <Definition lists - rst,nts,ksa,2020-1111164344>`
+- :doc:`field lists <Field lists - rst,nts,ksa,2020-1111165432>`
+- :doc:`option lists <Option lists - rst,nts,ksa,2020-1111165611>`
 
 **********************************************************************
 Examples
