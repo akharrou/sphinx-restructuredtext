@@ -41,6 +41,10 @@ templates_path = ['_templates']
 
 rst_epilog = """
 .. |psf| replace:: Python Software Foundation
+.. |date| date:: %Y/%m/%d
+.. |time| date:: %H:%M:%S
+.. |datetime| date:: %Y/%m/%d, %H:%M
+.. |timestamp| date:: %Y%m%d%H%M%S
 """
 
 rst_prolog = """

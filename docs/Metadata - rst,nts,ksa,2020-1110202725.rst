@@ -6,7 +6,13 @@ RST ➤ Metadata
 Synopsis
 **********************************************************************
 
-HTML metadata is supported with the ``meta`` directive.
+HTML metadata is supported with the ``meta`` directive. There is also
+the ``title`` directive that specifies the metadata title of the
+document, it overrides a document-supplied title::
+
+    .. meta::
+        :description: Lorem ipsum...
+    .. title:: Some title
 
 **********************************************************************
 Examples

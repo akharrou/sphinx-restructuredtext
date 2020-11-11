@@ -23,3 +23,5 @@ Indices and tables
 
    RST ➤ Dummy page <specimen>
    *
+
+*Last update:* |date| *at* |time|

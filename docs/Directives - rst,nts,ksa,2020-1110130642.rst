@@ -22,6 +22,24 @@ There are three logical parts to the directive block:
 
     The larch.              <--- 3. directive content
 
+.. note::
+
+    Most directives support these options::
+
+        :class: : text   <--- set a "classes" attribute value
+        :name: : text    <--- allows hyperlink references using text as refname
+
+    Specifying the name option of a directive, e.g.::
+
+        .. image:: bird.png
+            :name: my picture
+
+    is a concise syntax alternative to preceding it with a hyperlink target::
+
+        .. _my picture:
+
+        .. image:: bird.png
+
 **********************************************************************
 Examples
 **********************************************************************
@@ -52,3 +70,4 @@ References
 
 - `Docutils ➤ Spec. ➤ Directives <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#directives>`_
 - `Docutils ➤ Directives <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`_
+- `Docutils ➤ Directives ➤ Common options <https://docutils.sourceforge.io/docs/ref/rst/directives.html#common-options>`_
