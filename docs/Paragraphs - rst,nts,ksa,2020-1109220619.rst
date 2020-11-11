@@ -11,8 +11,15 @@ You can write parargaphs by typing chunks of text, separated by one or more blan
 Also available are verse-like spaced lines, called "line blocks".
 Prepend the lines with a ``|``.
 
-Also available is the ``.. topic:: title`` directive which gives a bolded
-title to your paragraph.
+Also available is the::
+
+    .. topic:: <title>
+
+        <paragraph>
+
+directive which gives a bolded title to the indented paragraph under it. If
+you wish to only have the title, you can use the ``.. rubric:: <title>``
+directive.
 
 **********************************************************************
 Examples
@@ -104,11 +111,17 @@ Out
         |
         | Singing...
 
-Topic directive
+Topic and rubric directives
 ============================================================
 
 In
     ::
+
+        .. rubric:: John Doe in flesh
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel
+        quam elementum pulvinar.
 
         .. topic:: Topic Title
 
@@ -117,6 +130,12 @@ In
             interpreted as body elements.
 
 Out
+
+    .. rubric:: John Doe in flesh
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Quisque id diam vel
+    quam elementum pulvinar.
 
 .. topic:: Topic Title
 

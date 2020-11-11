@@ -66,6 +66,8 @@ Contents
 
    Images - rst,nts,ksa,2020-1110145523
 
+   Figure - rst,nts,ksa,2020-1111061853
+
    List tables - rst,nts,ksa,2020-1110234205
 
    CSV tables - rst,nts,ksa,2020-1110215241

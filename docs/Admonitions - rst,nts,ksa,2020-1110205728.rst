@@ -9,15 +9,15 @@ Synopsis
 Admonitions are supported.
 The following admonition directives have been implemented:
 
-- attention
-- caution
-- danger
-- error
-- hint
-- important
-- note
-- tip
-- warning
+- ``attention``
+- ``caution``
+- ``danger``
+- ``error``
+- ``hint``
+- ``important``
+- ``note``
+- ``tip``
+- ``warning``
 
 **********************************************************************
 Examples
