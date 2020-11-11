@@ -164,3 +164,11 @@ References
 - `Sphinx ➤ RST ➤ Basics # Literal blocks <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#literal-blocks>`_
 - `Docutils ➤ Spec. ➤ Literal blocks <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#literal-blocks>`_
 - `Write the docs ➤ RST ➤ Code samples <https://www.writethedocs.org/guide/writing/reStructuredText/#code-samples>`_
+
+.. .. testcode::
+
+..     print('hi')
+
+.. .. testoutput::
+
+..     hi there !

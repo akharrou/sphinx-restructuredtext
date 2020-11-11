@@ -180,3 +180,4 @@ References
 - `Sphinx ➤ RST ➤ Basics # Hyperlink references <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_
 - `Sphinx ➤ RST ➤ Roles <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html>`_
 - `Sphinx ➤ Extensions ➤ sphinx.ext.autosectionlabel <https://www.sphinx-doc.org/en/master/usage/extensions/autosectionlabel.html>`_
+- `Docutils ➤ Spec. ➤ Reference names <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#reference-names>`_
