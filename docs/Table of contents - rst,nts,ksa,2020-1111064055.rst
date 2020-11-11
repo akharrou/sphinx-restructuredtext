@@ -10,10 +10,11 @@ RST ➤ Table of contents
 Synopsis
 **********************************************************************
 
-You can generate a table of contents (TOC) in a topic, i.e under any section
-or transition with the ``.. contents::`` directive::
+You can generate a table of contents (TOC), like the one at the start of this
+page, for any topic, i.e under any section or transition with the ``contents``
+directive::
 
-    .. contents::
+    .. contents:: [<title>]
         :depth: integer
         :local: flag (empty)
         :backlinks: [entry|top|none]
@@ -29,7 +30,7 @@ Basic
 In
     ::
 
-        .. contents::
+        .. contents:: Table of contents
             :depth: 3
             :backlinks: top
 

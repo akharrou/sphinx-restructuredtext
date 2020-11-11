@@ -44,8 +44,20 @@ rst_epilog = """
 """
 
 rst_prolog = """
-.. |psf| replace:: Python Software Foundation
 """
+
+numfig = True
+numfig_format = {
+    'figure': 'Fig. %s:',
+    'table': 'Table %s',
+    'code-block': 'Listing %s',
+    'section': 'Section'
+}
+numfig_secnum_depth = 0 # [
+    #     0 -> 1., 2., N., ...                            |
+    #     1 -> <section>.1, <section>.2, <section>.N,...  |
+    #     2 -> l1.l2.l3.1, l1.l2.l3.2, l1.l2.l3.N.,...
+    # ]
 
 suppress_warnings = [
     # 'app.add_node',
