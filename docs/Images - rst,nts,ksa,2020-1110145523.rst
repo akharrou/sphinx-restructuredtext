@@ -18,11 +18,11 @@ Basic
 In
     ::
 
-        .. image:: _assets/lion.jpg
+        .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
 
 Out
 
-        .. image:: _assets/lion.jpg
+        .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
 
 Customized
 ============================================================
@@ -30,7 +30,7 @@ Customized
 In
     ::
 
-        .. image:: _assets/lion.jpg
+        .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
             :height: 200
             :width: 200
             :scale: 50
@@ -40,7 +40,7 @@ In
 
 Out
 
-    .. image:: _assets/lion.jpg
+    .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
         :height: 200
         :width: 200
         :scale: 50

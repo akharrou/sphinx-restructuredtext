@@ -25,7 +25,7 @@ In
 
         .. |name| replace:: **John Doe**
 
-        .. |lion| image:: _assets/lion.jpg
+        .. |lion| image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
             :scale: 50%
 
 Out
@@ -34,7 +34,7 @@ Out
 
     .. |name| replace:: **John Doe**
 
-    .. |lion| image:: _assets/lion.jpg
+    .. |lion| image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
         :scale: 50%
 
 **********************************************************************

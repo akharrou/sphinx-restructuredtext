@@ -74,6 +74,8 @@ Contents
 
    Epigraph - rst,nts,ksa,2020-1110214753
 
+   Table of contents - rst,nts,ksa,2020-1111064055
+
    Metadata - rst,nts,ksa,2020-1110202725
 
    Only directive - rst,nts,ksa,2020-1110212803

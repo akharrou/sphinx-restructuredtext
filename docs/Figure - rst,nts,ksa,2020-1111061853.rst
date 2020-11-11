@@ -35,14 +35,14 @@ Basic
 In
     ::
 
-        .. figure:: _assets/lion.jpg
+        .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
             :scale: 50 %
             :align: center
             :alt: lion
 
             Caption 1.
 
-        .. figure:: _assets/lion.jpg
+        .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
             :scale: 50 %
             :align: center
             :alt: lion
@@ -50,14 +50,14 @@ In
             Caption 2.
 Out
 
-    .. figure:: _assets/lion.jpg
+    .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
         :scale: 50 %
         :align: center
         :alt: lion
 
         Caption 1.
 
-    .. figure:: _assets/lion.jpg
+    .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
         :scale: 50 %
         :align: center
         :alt: lion

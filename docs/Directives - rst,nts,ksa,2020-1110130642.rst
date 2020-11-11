@@ -32,14 +32,14 @@ Image directive
 In
     ::
 
-        .. image:: _assets/lion.jpg
+        .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
             :scale: 50 %
             :alt: favorite lion
             :align: left
 
 Out
 
-    .. image:: _assets/lion.jpg
+    .. image:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
         :scale: 50 %
         :alt: favorite lion
         :align: left
