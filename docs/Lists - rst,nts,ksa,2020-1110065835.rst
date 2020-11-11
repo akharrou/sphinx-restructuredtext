@@ -22,6 +22,7 @@ Bullet lists
 ============================================================
 
 In
+
     ::
 
         * Item-1
@@ -33,6 +34,7 @@ In
         * Item-5
 
 Out
+
     * Item-1
     * Item-2
 
@@ -44,25 +46,8 @@ Out
 Enumerated lists
 ============================================================
 
-.. note::
-
-    The following enumeration sequences are recognized:
-
-    - arabic numerals: 1, 2, 3, ... (no upper limit).
-    - uppercase alphabet characters: A, B, C, ..., Z.
-    - lower-case alphabet characters: a, b, c, ..., z.
-    - uppercase Roman numerals: I, II, III, IV, ..., MMMMCMXCIX (4999).
-    - lowercase Roman numerals: i, ii, iii, iv, ..., mmmmcmxcix (4999).
-
-    The following formatting types are recognized:
-
-    - suffixed with a period: ``1.``, ``A.``, ``a.``, ``I.``, ``i.``.
-    - surrounded by parentheses: ``(1)``, ``(A)``, ``(a)``, ``(I)``, ``(i)``.
-    - suffixed with a right-parenthesis: ``1)``, ``A)``, ``a)``, ``I)``, ``i)``.
-
-    Auto-enumerator, ``#``, may be used to automatically enumerate a list.
-
 In
+
     ::
 
         1. Item-1
@@ -101,6 +86,7 @@ Definition lists
 ============================================================
 
 In
+
     ::
 
         term 1
@@ -123,6 +109,7 @@ In
                 print('codeblock')
 
 Out
+
     term 1
         Definition 1.
 
@@ -146,6 +133,7 @@ Field lists
 ============================================================
 
 In
+
     ::
 
         :Date:          2001-08-16
@@ -158,6 +146,7 @@ In
         :Parameter i:   integer
 
 Out
+
     :Date:          2001-08-16
     :Version:       1
     :Authors:       - John Doe
@@ -171,6 +160,7 @@ Option lists
 ============================================================
 
 In
+
     ::
 
         -a          Output all.
@@ -196,6 +186,7 @@ In
         /V         A VMS/DOS-style option.
 
 Out
+
     -a          Output all.
     -b          Output both (this description is
                 quite long).

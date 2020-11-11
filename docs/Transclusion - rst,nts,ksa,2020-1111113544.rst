@@ -24,8 +24,8 @@ Two directives exist for the task:
             :encoding: str           <--- name of text encoding, default is 'input_encoding'
             :tab-width: integer      <--- tab spaces, neg. value rep. hard tabs, default 'tab_width'
 
-    .. warning:: The "``include``" directive represents a potential security
-       hole. It can be disabled with the "``file_insertion_enabled``" runtime
+    .. warning:: The ``include`` directive represents a potential security
+       hole. It can be disabled with the ``file_insertion_enabled`` runtime
        setting.
 
 

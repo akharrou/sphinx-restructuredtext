@@ -6,8 +6,9 @@ RST ➤ Topic and rubric directives
 Synopsis
 **********************************************************************
 
-You can create paragraphs with titles with the ``topic`` and/or
-``rubric`` directives.
+You can create content blocks with emboldened titles with the ``topic``
+directive, for indented content blocks, and the ``rubric`` directive for
+non-indented content blocks.
 
 **********************************************************************
 Examples

@@ -7,7 +7,7 @@ Synopsis
 **********************************************************************
 
 Blocks of text that are indented relative to previous blocks of text
-are referred to as "*block quotes*".
+are referred to as *block quotes*.
 
 **********************************************************************
 Examples
@@ -21,8 +21,9 @@ In
 
         This is an ordinary paragraph, introducing a block quote.
 
-            | It is my business to know things.  That is my trade."
-            | -- Sherlock Holmes
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -30,8 +31,9 @@ Out
 
     This is an ordinary paragraph, introducing a block quote.
 
-        | "It is my business to know things.  That is my trade."
-        | -- Sherlock Holmes
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
