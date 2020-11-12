@@ -149,6 +149,25 @@ Section name
                 override any implicit targets. Duplicate implicit targets
                 are removed.
 
+Directive content targets
+============================================================
+
+In
+    ::
+
+        .. image:: `_assets/lion - rst,imgs,ksa,2020-1111065317`
+
+Out
+
+    .. figure:: _assets/lion\ -\ rst,imgs,ksa,2020-1111065317.jpg
+        :target: fav_lion
+        :align: center
+        :scale: 50
+
+        Favorite lion.
+
+    See :fig:`fav_lion` and more. See  and |version| and |release| .
+
 **********************************************************************
 Details
 **********************************************************************

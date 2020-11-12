@@ -77,7 +77,7 @@ Out
         .. _Python home page: http://www.python.org
         .. _link: `Python home page`_
 
-Abritrary hyperlinks (references to targets)
+Abritrary location hyperlinks
 ============================================================
 
 In

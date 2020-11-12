@@ -40,6 +40,10 @@ latex_engine = 'pdflatex' # 'xelatex' | 'lualatex'
 templates_path = ['_templates']
 file_insertion_enabled = True
 
+rst_prolog = """
+.. default-role:: any
+"""
+
 rst_epilog = """
 .. |psf| replace:: Python Software Foundation
 .. |date| date:: %Y/%m/%d
@@ -48,14 +52,11 @@ rst_epilog = """
 .. |timestamp| date:: %Y%m%d%H%M%S
 """
 
-rst_prolog = """
-"""
-
 numfig = True
 numfig_format = {
     'figure': 'Fig. %s:',
     'table': 'Table %s',
-    'code-block': 'Listing %s',
+    'code-block': 'Listing %s:',
     'section': 'Section'
 }
 numfig_secnum_depth = 0 # [

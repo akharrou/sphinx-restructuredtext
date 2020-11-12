@@ -1,0 +1,26 @@
+Basic ``literalinclude``
+============================================================
+
+In
+
+    .. code-block:: make
+
+        .. literalinclude:: ../Makefile
+            :name: include_makefile
+            :caption: Compilation Makefile
+            :language: make
+            :lines: 6-10,13,14,17-
+            :linenos:
+            :lineno-start: 1
+            :emphasize-lines: 13,14,17-18
+Out
+
+    .. literalinclude:: ../Makefile
+        :name: include_makefile
+        :caption: Sphinx Makefile
+        :language: make
+        :lines: 6-10,13,14,17-
+        :linenos:
+        :lineno-start: 1
+        :emphasize-lines: 13,14,17-18
+        :tab-width: 4

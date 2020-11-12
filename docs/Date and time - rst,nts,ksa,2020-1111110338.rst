@@ -7,7 +7,8 @@ Synopsis
 **********************************************************************
 
 You can generate the current local date and time with the ``date`` and
-``time`` directvies respectively.
+``time`` directvies respectively. Also the ``|today|`` substitution is
+provided.
 
 **********************************************************************
 Examples
@@ -24,10 +25,11 @@ In
         .. |datetime| date:: %Y/%m/%d, %H:%M
         .. |timestamp| date:: %Y%m%d%H%M%S
 
-        Today's date is |date|.
-        This document was generated on |date| at |time|.
-        This document was generated on |datetime|.
-        This document was generated on |timestamp|.
+        | **Today:** |today|
+        | **Date:** |date|
+        | **Time:** |date| at |time|
+        | **Datetime:** |datetime|
+        | **Timestamp:** |timestamp|
 
 Out
 
@@ -36,6 +38,7 @@ Out
     .. |datetime| date:: %Y/%m/%d, %H:%M
     .. |timestamp| date:: %Y%m%d%H%M%S
 
+    | **Today:** |today|
     | **Date:** |date|
     | **Time:** |date| at |time|
     | **Datetime:** |datetime|

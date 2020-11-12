@@ -1,12 +1,13 @@
 ################################################################################
-RST ➤ Hyperlink references
+RST ➤ Abbreviations
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-Hyperlink references are pointers to markers (:doc:`hyperlink targets <Hyperlink targets - rst,nts,ksa,2020-1110115624>`). They render to clickable links that redirect (points) to wherever the matching hyperlink target (marker) points to. Hyperlink refernces follow the form: ```marker-name`_``.
+Abbrevations are supported. Abbreviated words will render with an underline
+and when hovered over will show a text box with their definition.
 
 **********************************************************************
 Examples
@@ -18,18 +19,14 @@ Basic
 In
     ::
 
-        .. _Python: https://www.python.org/   <--- target, marker
-
-        See the Python_ home page for info.   <--- reference, pointer
+        Stacks are a :abbr:`LIFO (last-in, first-out)` data structure.
 
 Out
 
-    .. _Python: https://www.python.org/
-
-    See the Python_ home page for info.
+    Stacks are a :abbr:`LIFO (last-in, first-out)` data structure.
 
 **********************************************************************
 References
 **********************************************************************
 
-- `Docutils ➤ RST ➤ Hyerplink references <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#hyperlink-references>`_
+- `Sphinx ➤ Roles ➤ Abbreviation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#role-abbr>`_

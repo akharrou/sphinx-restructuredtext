@@ -1,5 +1,5 @@
 ################################################################################
-RST ➤ Transclusion
+RST ➤ Transclusion or includes
 ################################################################################
 
 **********************************************************************
@@ -8,7 +8,7 @@ Synopsis
 
 Two directives exist for the task:
 
-- Docutils' ``include`` directive
+- Docutils' ``include`` directive, the output can optionally be literal, i.e code:
 
     ::
 
@@ -28,10 +28,34 @@ Two directives exist for the task:
        hole. It can be disabled with the ``file_insertion_enabled`` runtime
        setting.
 
+- Sphinx's custom ``literalinclude`` directive, the output is always literal, i.e code::
 
-- Sphinx's custom ``literalinclude`` directive.
+    .. literalinclude:: <path>
+        :name: str                   <--- implicit target name
+        :caption: str                <--- optional, leave empty for filename
+        :language: str
 
+        :lines: int list             <--- lines to include from file
 
+        :start-after: str            <---  only lines that follow the first line containing that string are included
+        :start-at: str               <--- same, but lines containing the match string are included
+        :end-before: str             <--- only lines that precede the first lines containing that string are included
+        :end-at: str                 <--- same, but lines containing the match string are included
+
+        :prepend: str                <--- prepend line to output
+        :append: str                 <--- append line to output
+
+        :lineno-start: int           <--- starting line number
+        :linenos:                    <--- turn on line numbering
+        :emphasize-lines: int list   <--- lines to highlight
+
+        :dedent:                     <--- strip indentation characters
+        :tab-width: int              <--- spaces used in tab
+        :encoding: str               <--- file character encoding
+
+        :pyobject:                   <--- for python modules, you can select class/function/method to include
+
+        :diff: <path>                <--- shows differences between this file
 
 **********************************************************************
 Examples
@@ -89,6 +113,55 @@ Out
 
 Basic ``literalinclude``
 ============================================================
+
+In
+
+    .. code-block:: make
+
+        .. literalinclude:: ../Makefile
+            :name: include_makefile
+            :caption: Sphinx Makefile
+            :language: make
+            :lines: 6-10,13,14,17-
+            :linenos:
+            :lineno-start: 1
+            :emphasize-lines: 13,14,17-18
+            :tab-width: 4
+Out
+
+    .. literalinclude:: ../Makefile
+        :name: include_makefile
+        :caption: Sphinx Makefile
+        :language: make
+        :lines: 6-10,13,14,17-
+        :linenos:
+        :lineno-start: 1
+        :emphasize-lines: 13,14,17-18
+        :tab-width: 4
+
+Diff w/ ``literalinclude``
+============================================================
+
+In
+
+    ::
+
+        .. literalinclude:: _assets/example_diff_new.txt
+            :name: include_example_diff
+            :caption: Example ``diff``
+            :diff: _assets/example_diff_original.txt
+
+        See :ref:`the compilation makefile <include_makefile>`
+        as well as the :ref:`example diff <include_example_diff>`.
+
+Out
+
+    .. literalinclude:: _assets/example_diff_new.txt
+        :name: include_example_diff
+        :caption: Example ``diff``
+        :diff: _assets/example_diff_original.txt
+
+    See :ref:`the compilation makefile <include_makefile>` as well as the :ref:`example diff <include_example_diff>`.
 
 **********************************************************************
 References
