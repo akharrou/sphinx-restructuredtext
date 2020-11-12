@@ -47,15 +47,13 @@ See :file:`index.rst` and :file:`Admonitions - rst,nts,ksa,2020-1110205728`.
 
 Perform the :command:`ls` and then :command:`echo`.
 
-We implement a :abbr:`LIFO (last-in, first-out)` stack.
-
-Do :math:`a^2 + b^2 = c^2` and you get :math:`e=mc^2`.
+Make sure you type :command:`ls` properly and make things
 
 **********************************************************************
 Examples
 **********************************************************************
 
-Basic ``role`` directive
+``role`` directive
 ============================================================
 
 In
@@ -80,7 +78,26 @@ Out
             <inline classes="custom">
                 interpreted text
 
-Customizations
+Extending existing roles
+============================================================
+
+In
+
+        .. role:: custom(emphasis)
+
+        :custom:`text`
+
+Out
+
+    The parsed result is as follows:
+
+    .. code-block:: html
+
+        <paragraph>
+            <emphasis classes="custom">
+                text
+
+Custom class name
 ============================================================
 
 In
@@ -89,25 +106,17 @@ In
         .. role:: custom
             :class: special
 
-        .. role:: custom(emphasis)
-
-        :custom:`interpreted text 1`
-
-        :custom:`interpreted text 2`
+        :custom:`interpreted text`
 
 Out
 
     .. code-block:: html
 
         <paragraph>
-            <emphasis classes="custom">
-                interpreted text 1
-
-        <paragraph>
             <inline classes="special">
                 interpreted text 2
 
-Basic ``default-role``
+``default-role`` directive
 ============================================================
 
 In

@@ -1,30 +1,48 @@
 ################################################################################
-RST ➤ Math
+RST ➤ Math directive and role
 ################################################################################
 
 **********************************************************************
 Synopsis
 **********************************************************************
 
-Math is supported with the ``math`` directive. Input is LaTeX markup.
+Math is supported with the ``math`` role for inline, and ``math`` directive for blocks. Input is LaTeX markup.
 
 **********************************************************************
 Examples
 **********************************************************************
 
-Basic
+Inline
 ============================================================
 
 In
     ::
 
+        Einstein came up with :math:`e=mc^2`.
+
+Out
+
+    Einstein came up with :math:`e=mc^2`.
+
+Block
+============================================================
+
+In
+    ::
+
+        Lorem ipsum dolor sit amet.
+
         .. math:: (a + b)^2 = a^2 + 2ab + b^2
+
+        Consectetur adipiscing elit.
 
         .. math::
 
             (a + b)^2 = a^2 + 2ab + b^2
 
             (a - b)^2 = a^2 - 2ab + b^2
+
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
         .. math::
 
@@ -33,9 +51,11 @@ In
 
 Out
 
+        Lorem ipsum dolor sit amet.
+
         .. math:: (a + b)^2 = a^2 + 2ab + b^2
 
-----
+        Consectetur adipiscing elit.
 
         .. math::
 
@@ -43,7 +63,7 @@ Out
 
             (a - b)^2 = a^2 - 2ab + b^2
 
-----
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
         .. math::
 

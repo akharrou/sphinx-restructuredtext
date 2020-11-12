@@ -39,9 +39,10 @@ autoclass_content = "class"
 latex_engine = 'pdflatex' # 'xelatex' | 'lualatex'
 templates_path = ['_templates']
 file_insertion_enabled = True
+show_authors = True
+default_role = 'any'
 
 rst_prolog = """
-.. default-role:: any
 """
 
 rst_epilog = """
